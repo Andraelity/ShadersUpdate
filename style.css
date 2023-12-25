@@ -14,14 +14,14 @@ body {
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display: block;
 }
-audio,canvas,progress,video {
+/*audio,canvas,progress,video {
 	display: inline-block;
 	vertical-align: baseline;
-}
-audio:not([controls]) {
+}*/
+/*audio:not([controls]) {
 	display: none;
 	height: 0;
-}
+}*/
 [hidden],template {
 	display: none;
 }
@@ -45,8 +45,8 @@ h1 {
 	margin: 0.67em 0;
 }
 mark {
-	background: #ff0;
-	color: #000;
+	background: #1D1D1C;
+	color: #FFFFFF;
 }
 small {
 	font-size: 80%;
@@ -147,7 +147,7 @@ td,th {
 	padding: 0;
 }
 html {
-	color: #222;
+	color: #FFFFFf;
 	font-size: 1em;
 	line-height: 1.4;
 }
@@ -265,7 +265,7 @@ line-numbers {
 	}
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #000;
+	color: #FFFFFF;
 	background: none;
 	font-weight: normal;
 	margin: 0;
@@ -293,6 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 1em 0 0 1.6em;
 	font-style: italic;
 }
+
 p.siteSub {
 	font-size: 92%;
 }
@@ -313,7 +314,7 @@ h1 {
 	font-size: 2.3em;
 }
 a, a:visited {
-	color: #0645ad;
+	color: #03B5BE;
 	text-decoration: none;
 }
 a:hover {
@@ -425,6 +426,7 @@ div.articleRightInner {
 	line-height: 0;
 	float: left;
 }
+
 #simpleSearch {
 	margin: 1em 1em 0em 0.5em;
 	display: block;
@@ -463,9 +465,9 @@ div.articleRightInner {
 .article {
 	padding: 1.25em 1.5em 1.5em 1.5em;
 	border-left: 1px solid #a7d7f9;
-	background: #FFF;
+	background: #1D1D1C;
 	line-height: 1.6;
-	font-size: 0.875em;
+	font-size: 1.1em;
 	border-top: 1px solid #a7d7f9;
 	border-bottom: 1px solid #a7d7f9;
 }
@@ -478,10 +480,10 @@ span.user {
 	background-repeat: no-repeat;
 	background-image: url(img/user-ico.png);
 	padding-left: 15px !important;
-}
+} 
 .contentsPanel {
 	border: 1px solid #a2a9b1;
-	background-color: #f8f9fa;
+	background-color: #1D1D1C;
 	padding: 5px;
 	font-size: 95%;
 	position: relative;
@@ -499,7 +501,7 @@ span.user {
 	position: absolute;
 	right: 20px;
 	cursor: pointer;
-	color: #0645ad;
+	color: #03B5BE;
 	top: 4px;
 }
 .contentsPanel ul li span {
@@ -630,6 +632,7 @@ span.user {
 	{font-family:Consolas;
 	panose-1:2 11 6 9 2 2 4 3 2 4;}
 /* Style Definitions */
+/*
 p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin-top:0in;
 	margin-right:0in;
@@ -654,4 +657,4 @@ div.WordSection1
     display: block;
 	border: 1px solid #c8ccd1;
 	padding: 3px;
-  }
+  }*/
